@@ -1,0 +1,26 @@
+{
+  "name": "http-proxy-cors",
+  "version": "1.0.0",
+  "description": "Node.js配合node-http-proxy解决本地开发ajax跨域问题",
+  "main": "http.js",
+  "scripts": {
+    "start": "node src/utils/http.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.michaelxu.cn/web-developer/http-proxy-cors.git"
+  },
+  "keywords": [
+    "http-proxy"
+  ],
+  "author": "michael.xu1983@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "http-proxy": "^1.17.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}
